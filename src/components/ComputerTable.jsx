@@ -1,10 +1,10 @@
 import { useGLTF, useTexture } from '@react-three/drei';
 
 const ComputerTable = (props) => {
-  const { nodes, materials } = useGLTF('/portfolio-website//models/computer-table.glb');
+  const { nodes, materials } = useGLTF('/models/computer-table.glb');
 
-  const monitortxt = useTexture('/portfolio-website//textures/desk/monitor.png');
-  const screenTxt = useTexture('/portfolio-website//textures/desk/screen.jpg');
+  const monitortxt = useTexture('/textures/desk/monitor.png');
+  const screenTxt = useTexture('/textures/desk/screen.jpg');
 
   return (
     <group {...props} dispose={null}>
@@ -31,6 +31,6 @@ const ComputerTable = (props) => {
     </group>
   );
 }
-useGLTF.preload('/portfolio-website//models/computer-table.glb');
+useGLTF.preload('/models/computer-table.glb');
 
 export default ComputerTable;
