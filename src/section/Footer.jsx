@@ -11,7 +11,7 @@ const Footer = () => {
 
         <div className="flex gap-3">
           <div className="flex gap-3 hover:scale-[1.15] transition-all duration-200">
-            <a className='social-icon' href='https://github.com/' target='_blank'>
+            <a className='social-icon' href='https://github.com/PradeepPs04' target='_blank'>
                 <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
             </a>
           </div>
