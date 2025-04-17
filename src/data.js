@@ -105,7 +105,7 @@ export const navLinks = [
         'This offers a seamless experience with a responsive design built using JSX and Tailwind CSS, making it accessible on all devices, ensuring convenience for users on the go.',
       href: 'https://pradeepps04.github.io/Sanp-Notes/',
       texture: '/textures/project/snap_notes.mp4',
-      checkLive: 'Check Live Site',
+      checkLive: 'Check Project',
       linecolor: '#EDB926',
       logo: '/assets/project-logo1.png',
       logoStyle: {
