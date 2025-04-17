@@ -15,44 +15,6 @@ import Button from '../components/Button'
 
 const Hero = () => {
 
-    // const controls = useControls('ComputerTable', {
-    //     PositionX: {
-    //         value: 2.5,
-    //         min: -10,
-    //         max: 10
-    //     },
-    //     PositionY: {
-    //         value: 2.5,
-    //         min: -10,
-    //         max: 10
-    //     },
-    //     PositionZ: {
-    //         value: 2.5,
-    //         min: -10,
-    //         max: 10
-    //     },
-    //     rotationX: {
-    //         value: 2.5,
-    //         min: -10,
-    //         max: 10
-    //     },
-    //     rotationY: {
-    //         value: 2.5,
-    //         min: -10,
-    //         max: 10
-    //     },
-    //     rotationZ: {
-    //         value: 2.5,
-    //         min: -10,
-    //         max: 10
-    //     },
-    //     scale: {
-    //         value: 2.5,
-    //         min: -10,
-    //         max: 10
-    //     }
-    // });
-
     const isSmall = useMediaQuery({maxWidth: 440})
     const isMobile = useMediaQuery({maxWidth: 768});
     const isTablet = useMediaQuery({minWidtg: 768, maxWidth: 1024});
@@ -95,8 +57,8 @@ const Hero = () => {
         </div>
 
         <div className='absolute bottom-7 left-0 right-0 w-full z-10 c-space'>
-            <a href='#about' className='w-fit'>
-                <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-[96px]"/>
+            <a href='./myResume/MyResume.pdf' download className='w-fit'>
+                <Button name="Get My Résumé" isBeam containerClass="sm:w-fit w-full sm:min-w-[96px]"/>
             </a>
         </div>
 

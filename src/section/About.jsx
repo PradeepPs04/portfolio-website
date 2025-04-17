@@ -2,6 +2,69 @@ import React, { useState, useRef, useEffect } from 'react';
 import Globe from 'react-globe.gl';
 import Button from '../components/Button';
 
+const techStackImages = [
+  {
+    id: 1,
+    img: '/assets/javascript.png', 
+  },
+  {
+    id: 2,
+    img: '/assets/react.svg', 
+  },
+  {
+    id: 3,
+    img: '/assets/nodejs.png', 
+  },
+  {
+    id: 4,
+    img: '/assets/express.png', 
+  },
+  {
+    id: 5,
+    img: '/assets/rest-api.png', 
+  },
+  {
+    id: 6,
+    img: '/assets/mongodb.png', 
+  },
+  {
+    id: 7,
+    img: '/assets/postman.png', 
+  },
+  {
+    id: 8,
+    img: '/assets/github.svg', 
+  },
+  {
+    id: 9,
+    img: '/assets/html-5.png', 
+  },
+  {
+    id: 10,
+    img: '/assets/css.png', 
+  },
+  {
+    id: 11,
+    img: '/assets/tailwindcss.png', 
+  },
+  {
+    id: 12,
+    img: '/assets/sql.png', 
+  },
+  {
+    id: 13,
+    img: '/assets/python.png', 
+  },
+  {
+    id: 14,
+    img: '/assets/cpp.png', 
+  },
+  {
+    id: 15,
+    img: '/assets/cLang.png', 
+  },
+]
+
 const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
   const globeRef = useRef();
@@ -49,28 +112,26 @@ const About = () => {
           </div>
         </div>
 
+        {/* tech stack */}
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container flex flex-col justify-between">
+            {/* tech stack images */}
             <div className='grid grid-cols-3 gap-3 relative'>
               <img className='absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] z-10 mix-blend-lighten opacity-30' src='/assets/blob.gif'/>
-
-              <img className='w-[60px] z-20 hover:scale-[1.2] transition-all duration-300' src='/assets/cLang.png'/>
-              <img className='w-[60px] z-20 hover:scale-[1.2] transition-all duration-300' src='/assets/cpp.png'/>
-              <img className='w-[60px] z-20 hover:scale-[1.2] transition-all duration-300' src='/assets/javascript.png'/>
-              <img className='w-[60px] z-20 hover:scale-[1.2] transition-all duration-300' src='/assets/github.svg'/>
-              <img className='w-[60px] z-20 hover:scale-[1.2] transition-all duration-300' src='/assets/sql.png'/>
-              <img className='w-[60px] z-20 hover:scale-[1.2] transition-all duration-300' src='/assets/html-5.png'/>
-              <img className='w-[60px] z-20 hover:scale-[1.2] transition-all duration-300' src='/assets/css.png'/>
-              <img className='w-[60px] z-20 hover:scale-[1.2] transition-all duration-300' src='/assets/mongodb.png'/>
-              <img className='w-[60px] z-20 hover:scale-[1.2] transition-all duration-300' src='/assets/express.png'/>
-              <img className='w-[60px] z-20 hover:scale-[1.2] transition-all duration-300' src='/assets/tailwindcss.png'/>
-              <img className='w-[60px] z-20 hover:scale-[1.2] transition-all duration-300' src='/assets/react.svg'/>
-              <img className='w-[60px] z-20 hover:scale-[1.2] transition-all duration-300' src='/assets/nodejs.png'/>
+              {
+                techStackImages.map((item) => (
+                  <img 
+                    src={item.img}
+                    className='w-[60px] z-20 hover:scale-[1.2] transition-all duration-300 text-white'
+                    alt={item.img.split('/').at(-1).split('.').at(0)}
+                    />
+                ))
+              }
             </div>
 
             <div>
               <p className="grid-headtext">Tech Stack</p>
-              <p className="grid-subtext">My tech stack includes C, C++, Javascript, and the MERN stack for full-stack development.</p>
+              <p className="grid-subtext">My tech stack includes C, C++, Javascript, Python, and the MERN stack for full-stack development.</p>
             </div>
           </div>
         </div>
