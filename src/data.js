@@ -22,6 +22,56 @@ export const navLinks = [
   ];
   
   export const myProjects = [
+    // VHerbs
+    {
+      title: 'VHerbs - Virtual Herbal Garden',
+      desc: 'VHerbs is an interactive web platform that showcases medicinal plants from AYUSH systems using 3D visualization, AI chat, and multimedia content. Built with the MERN stack and Three.js, it blends ancient knowledge with modern technology.',
+      subdesc:
+        'Users can explore a 3D herbal garden, search and filter plants, interact with an AI assistant, and access multimedia-rich plant profiles. The interface is fully responsive and designed for smooth, immersive learning.',
+      href: 'https://vherbs.vercel.app/',
+      texture: '/textures/project/v_herbs.mp4',
+      checkLive: 'Check Live Site',
+      linecolor: '#58A36C',
+      logo: '/assets/vherbs-logo.png',
+      logoStyle: {
+        backgroundColor: '#E1EEBC',
+        border: '0.2px solid #2F4F4F',
+        boxShadow: '0px 0px 60px 0px #58A36C4D',
+      },
+      spotlight: '/assets/spotlight1.png',
+      tags: [
+        {
+          id: 1,
+          name: 'MongoDB',
+          path: '/assets/mongodb.png',
+        },
+        {
+          id: 2,
+          name: 'Express.js',
+          path: '/assets/express.png',
+        },
+        {
+          id: 3,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 4,
+          name: 'Node.js',
+          path: '/assets/nodejs.png',
+        },
+        {
+          id: 5,
+          name: 'Three.js',
+          path: '/assets/threejs.png',
+        },
+        {
+          id: 6,
+          name: 'Tailwind CSS',
+          path: '/assets/tailwindcss.png',
+        },
+      ],
+    },    
     // StudyNotion
     {
       title: 'StydyNotion - EdTech Website',
@@ -137,9 +187,9 @@ export const navLinks = [
       title: 'GreenThumbWeather - Agricultural Web App',
       desc: 'GreenThumbWeather is an API-powered website that supports agriculture by providing real-time weather forecasts and relevant agriculture news.',
       subdesc: 'Utilizing weather, news, and Wikipedia APIs, this helps users stay informed about weather patterns and agricultural updates, ensuring timely insights for farming decisions.',
-      href: 'https://github.com/PradeepPs04/Green-Thumb-Weather',
+      href: 'https://pradeepps04.github.io/Green-Thumb-Weather/',
       texture: '/textures/project/green_thumb_weather.mp4',
-      checkLive: 'Check Project',
+      checkLive: 'Check Live Site',
       linecolor: '#00E559',
       logo: '/assets/project-logo2.png',
       logoStyle: {
@@ -173,6 +223,24 @@ export const navLinks = [
         },
       ],
     },
+    // github link for other projects
+    {
+      title: 'Check Other Projects',
+      desc: 'Explore more of my work to see a variety of projects.',
+      subdesc: 'From immersive web apps to scalable platforms, each project reflects my passion for building thoughtful digital experiences.',
+      href: 'https://github.com/PradeepPs04?tab=repositories',
+      texture: '/textures/project/otherProjects.mp4',
+      checkLive: 'View on GitHub',
+      linecolor: '#A3A3A3',
+      logo: '/assets/github.svg',
+      logoStyle: {
+        backgroundColor: '#000',
+        border: '0.2px solid #CCCCCC',
+        boxShadow: '0px 0px 40px 0px #D4D4D44D',
+      },
+      spotlight: '/assets/spotlight2.png',
+      tags: [],
+    }    
   ];
   
   export const calculateSizes = (isSmall, isMobile, isTablet) => {
