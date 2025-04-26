@@ -30,7 +30,7 @@ const Footer = () => {
           
         </div>
   
-        <p className="text-white-500">© {new Date().getFullYear()} Pradeep Singh. All rights reserved.</p>
+        <p className="text-white-500">© 2025 Pradeep Singh. All rights reserved.</p>
 
       </footer>
     );
