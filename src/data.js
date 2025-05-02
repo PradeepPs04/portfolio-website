@@ -74,7 +74,7 @@ export const navLinks = [
     },    
     // StudyNotion
     {
-      title: 'StydyNotion - EdTech Website',
+      title: 'StudyNotion - EdTech Website',
       desc: 'StudyNotion is a full-stack platform built with the MERN stack, allowing users to create, sell, and purchase online courses. It includes secure authentication and role-based access control (RBAC) using JWT for different user roles.',
       subdesc:
         'The platform integrates Razorpay for seamless payments and features a responsive UI designed with React.js and Tailwind CSS, ensuring smooth usability across all devices.',
