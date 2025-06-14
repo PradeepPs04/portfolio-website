@@ -26,8 +26,7 @@ export const navLinks = [
     {
       title: 'VHerbs - Virtual Herbal Garden',
       desc: 'VHerbs is an interactive web platform that showcases medicinal plants from AYUSH systems using 3D visualization, AI chat, and multimedia content. Built with the MERN stack and Three.js, it blends ancient knowledge with modern technology.',
-      subdesc:
-        'Users can explore a 3D herbal garden, search and filter plants, interact with an AI assistant, and access multimedia-rich plant profiles. The interface is fully responsive and designed for smooth, immersive learning.',
+      subdesc: 'Users can explore a 3D herbal garden, search and filter plants, interact with an AI assistant, and access multimedia-rich plant profiles. The interface is fully responsive and designed for smooth, immersive learning.',
       href: 'https://vherbs.vercel.app/',
       texture: '/textures/project/v_herbs.mp4',
       checkLive: 'Check Live Site',
@@ -71,13 +70,56 @@ export const navLinks = [
           path: '/assets/tailwindcss.png',
         },
       ],
-    },    
+    },
+    // PetMart Royale
+    {
+      title: 'PetMart Royale - E-Commerce for Pet Supplies',
+      desc: 'PetMart Royale is a full-stack e-commerce platform tailored for pet lovers, offering a seamless shopping experience with voice-enabled search, secure payments, and admin management.',
+      subdesc:'Built using the MERN stack with modern UI tools like TailwindCSS and Radix UI, it features user authentication, cart & orders, product CRUD, image uploads via Cloudinary, and payments via Razorpay.',
+      href: 'https://pet-mart-royale.vercel.app/',
+      texture: '/textures/project/petmart_royale.mp4',
+      checkLive: 'Check Live Site',
+      linecolor: '#FFFFFF',
+      logo: '/assets/petmart-logo.png',
+      logoStyle: {
+        backgroundColor: '#FFF2E0',
+        border: '0.2px solid #8B5E3C',
+        boxShadow: '0px 0px 60px 0px #F4A2614D',
+      },
+      spotlight: '/assets/spotlight4.png',
+      tags: [
+        {
+          id: 1,
+          name: 'MongoDB',
+          path: '/assets/mongodb.png',
+        },
+        {
+          id: 2,
+          name: 'Express.js',
+          path: '/assets/express.png',
+        },
+        {
+          id: 3,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 4,
+          name: 'Node.js',
+          path: '/assets/nodejs.png',
+        },
+        {
+          id: 5,
+          name: 'Tailwind CSS',
+          path: '/assets/tailwindcss.png',
+        },
+      ],
+    },
     // StudyNotion
     {
       title: 'StudyNotion - EdTech Website',
       desc: 'StudyNotion is a full-stack platform built with the MERN stack, allowing users to create, sell, and purchase online courses. It includes secure authentication and role-based access control (RBAC) using JWT for different user roles.',
-      subdesc:
-        'The platform integrates Razorpay for seamless payments and features a responsive UI designed with React.js and Tailwind CSS, ensuring smooth usability across all devices.',
+      subdesc: 'The platform integrates Razorpay for seamless payments and features a responsive UI designed with React.js and Tailwind CSS, ensuring smooth usability across all devices.',
       href: 'https://study-notion-front-end-plum.vercel.app/',
       texture: '/textures/project/studyNotion.mp4',
       checkLive: 'Check Live Site',
@@ -151,13 +193,12 @@ export const navLinks = [
     {
       title: 'Snap Notes - Quick Note Taking App',
       desc: 'Snap Notes is a simple and efficient website for creating, editing, deleting, and searching notes. Built with React.js, it uses local storage to ensure your notes are always accessible, even after closing the browser.',
-      subdesc:
-        'This offers a seamless experience with a responsive design built using JSX and Tailwind CSS, making it accessible on all devices, ensuring convenience for users on the go.',
+      subdesc: 'This offers a seamless experience with a responsive design built using JSX and Tailwind CSS, making it accessible on all devices, ensuring convenience for users on the go.',
       href: 'https://pradeepps04.github.io/Sanp-Notes/',
       texture: '/textures/project/snap_notes.mp4',
       checkLive: 'Check Project',
       linecolor: '#EDB926',
-      logo: '/assets/project-logo1.png',
+      logo: '/assets/snap-notes-logo.png',
       logoStyle: {
         backgroundColor: '#a9b89e',
         border: '0.2px solid #17293E',
@@ -191,11 +232,10 @@ export const navLinks = [
       texture: '/textures/project/green_thumb_weather.mp4',
       checkLive: 'Check Live Site',
       linecolor: '#00E559',
-      logo: '/assets/project-logo2.png',
+      logo: '/assets/green-thumb-weather-logo.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
-        background:
-          'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+        background: 'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
         border: '0.2px solid rgba(208, 213, 221, 1)',
         boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
       },
