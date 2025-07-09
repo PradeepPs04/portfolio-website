@@ -107,7 +107,7 @@ const About = () => {
             />
             <div>
               <p className="grid-headtext">Hi, I'm Pradeep</p>
-              <p className="grid-subtext">I'm a 3rd year B.Tech Computer Science student and a full-stack web developer.</p>
+              <p className="grid-subtext">A passionate Full Stack Web Developer currently pursuing a B.Tech in Computer Science and Engineering. Specializes in the MERN stack (MongoDB, Express.js, React.js, Node.js)</p>
             </div>
           </div>
         </div>
